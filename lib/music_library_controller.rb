@@ -59,7 +59,7 @@ class MusicLibraryController
   end
   
   def list_songs_by_artist
-    Song.each {|song| artist.name == name}
+    puts "Please enter the name of an artist:"
   end 
   
 end 
