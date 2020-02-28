@@ -58,5 +58,8 @@ class MusicLibraryController
     end
   end
   
+  def list_songs_by_artist
+    .detect {|song| song.name == name}
+  
 end 
   
